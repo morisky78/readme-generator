@@ -21,7 +21,7 @@ limitations under the License.`
         name: 'GNU GPL v3',
         badge:'[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)',
         notice: 
-`Copyright (C) <year>  <name of author>
+`Copyright (C)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -42,7 +42,7 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.`
         notice: 
 `MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -68,7 +68,7 @@ SOFTWARE.`
         notice: 
 `ISC License
 
-Copyright (c) [year] [fullname]
+Copyright (c) 
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above

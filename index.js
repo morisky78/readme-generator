@@ -16,7 +16,12 @@ const questions = [
 {
     type: 'input',
     name: 'description',
-    message: 'Project Description: '
+    message: 'Project Description: ',
+    validate(input) {
+        if (!input) {
+            throw Error('Description is required.');
+        } return true;
+      },
 },
 {
     type: 'input',
@@ -73,10 +78,9 @@ const questions = [
 
 
 const createReadMe =  function (ansObj) {
-    console.log(ansObj);
+    // get license info with name
     const licenseInfo = licenses.find(({name}) => name===ansObj.license);
-
-const readmeStr = 
+    const readmeStr = 
 `
 ${licenseInfo.badge}
 
@@ -124,8 +128,6 @@ fs.writeFile(`./output/README.md`, readmeStr,
 (err)=> err ? console.error(err) : console.log("./output/README.md created!"));
 
 } 
-
-
 
 
 const init = () => {

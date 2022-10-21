@@ -1,11 +1,11 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# THis is Title
+# Weather Dashboard
 
 ## Description
 
-this is created for the homework
+This webpage is created to build a weather dashboard by making requests to and retrieving data from openweathermap API. Users can search a city to see the current weather and 5 days forecast. The search history will be stored and shown on the page so that the weather data can be easily retrieved again.
 
 ## Table of Contents
 
@@ -22,13 +22,13 @@ N/A
 
 ## Usage
 
-this can be used for many reasons
+usage
 
 ## License
 
 MIT License
 
-Copyright (c) [year] [fullname]
+Copyright (c) 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -50,13 +50,13 @@ SOFTWARE.
 
 ## Contributing
 
-please be carefull when you contibution
+please let me know if you want to contirubte anything
 
 ## Tests
 
-Test like this
+Please try to test
 
 ## Questions
 
-If you have any questions, please contact me moranlee@gmail.com  
+If you have any questions, please contact me moran.risk78@gmail.com  
 GitHub  profile: [morisky78](https://github.com/morisky78)
