@@ -102,7 +102,6 @@ ${ansObj.description}
 ## Installation
 
 ${ansObj.install ? ansObj.install : 'N/A'}
-
 ## Usage
 
 ${ansObj.usage ? ansObj.usage : 'N/A'}
