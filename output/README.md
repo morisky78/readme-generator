@@ -1,11 +1,10 @@
+# README Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Weather Dashboard
-
 ## Description
 
-This webpage is created to build a weather dashboard by making requests to and retrieving data from openweathermap API. Users can search a city to see the current weather and 5 days forecast. The search history will be stored and shown on the page so that the weather data can be easily retrieved again.
+This is a command line application that generates a professional README.md file from user's input using the inquirer package.
 
 ## Table of Contents
 
@@ -18,11 +17,11 @@ This webpage is created to build a weather dashboard by making requests to and r
 
 ## Installation
 
-N/A
+To use this application, you will only need Node.js and a npm package, inquirer, installed in your environement.
 
 ## Usage
 
-usage
+Usage Information here
 
 ## License
 
@@ -50,11 +49,11 @@ SOFTWARE.
 
 ## Contributing
 
-please let me know if you want to contirubte anything
+N/A
 
 ## Tests
 
-Please try to test
+Test instruction sample
 
 ## Questions
 

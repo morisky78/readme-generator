@@ -81,10 +81,9 @@ const createReadMe =  function (ansObj) {
     // get license info with name
     const licenseInfo = licenses.find(({name}) => name===ansObj.license);
     const readmeStr = 
-`
-${licenseInfo.badge}
+`# ${ansObj.title}
 
-# ${ansObj.title}
+${licenseInfo.badge}
 
 ## Description
 
@@ -102,6 +101,7 @@ ${ansObj.description}
 ## Installation
 
 ${ansObj.install ? ansObj.install : 'N/A'}
+
 ## Usage
 
 ${ansObj.usage ? ansObj.usage : 'N/A'}
@@ -124,7 +124,7 @@ If you have any questions, please contact me ${ansObj.email}
 GitHub  profile: [${ansObj.github}](https://github.com/${ansObj.github})`  ;
 
 fs.writeFile(`./output/README.md`, readmeStr, 
-(err)=> err ? console.error(err) : console.log("./output/README.md created!"));
+(err)=> err ? console.error(err) : console.log(`\n./output/README.md created!`));
 
 } 
 
